@@ -183,4 +183,4 @@ Writing `host_pcl_port` makes the LiDAR select the destination of its streams ag
 
 ## 7 Not covered
 
-Device discovery, status push, batch access, software reboot, time synchronization, firmware update and other commands are not used in this repository and are not described here. For more commands of the `0x55` frame format, compare the public [sdcnm/T100-LiDAR](https://github.com/sdcnm/T100-LiDAR), which has its own license terms.
+Device discovery, status push, batch access, software reboot, time synchronization, firmware update and other commands are not used in this repository and are not described here.
