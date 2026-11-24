@@ -1,6 +1,6 @@
 # MID360-agras (T100) LiDAR Ethernet protocol
 
-[简体中文](protocol.zh-CN.md) · [Back to the home page](../README.md)
+[简体中文](protocol.zh-CN.md) · [Back to the home page](../README.en.md)
 
 This document describes what the code in this repository actually uses: wiring, addresses and ports, point cloud and IMU packets, configuration frames, the complete frames that unlock the full 360° scan, and the behaviour observed on real hardware. The reference implementations are `linux/mid360_agras.cpp` (receiving) and `tools/mid360_fov.py` (configuration). The values come from one or two units; other batches and firmware versions may differ.
 

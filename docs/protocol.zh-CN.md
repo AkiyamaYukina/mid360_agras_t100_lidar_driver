@@ -1,6 +1,6 @@
 # MID360-agras（T100）激光雷达网口协议
 
-[English](protocol.en.md) · [返回首页](../README.zh-CN.md)
+[English](protocol.en.md) · [返回首页](../README.md)
 
 本文写的是本仓库代码实际用到的部分：接线、地址端口、点云和 IMU 包、配置命令帧、解锁 360° 全周的完整报文，以及实测到的行为。内容以 `linux/mid360_agras.cpp`（收包解析）和 `tools/mid360_fov.py`（配置命令）为准。数值来自一两台雷达，别的批次和固件版本可能不同。
 
